@@ -1,0 +1,648 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:2:5-32:19
+INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:2:5-32:19
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f6ce98568501779a01236155547b4d28/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f6ce98568501779a01236155547b4d28/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f4661c889d6a9b40bd7238d108a979d3/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f4661c889d6a9b40bd7238d108a979d3/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/d5e40ea249b64098b59b0573ca3b7c09/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/d5e40ea249b64098b59b0573ca3b7c09/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9c13a24152c84d9c936b0a22f0861721/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9c13a24152c84d9c936b0a22f0861721/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/bddb84bcd06839e0a9aa43697862a2a9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/bddb84bcd06839e0a9aa43697862a2a9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/aa79da60893212c3efb036b4ab62393e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/aa79da60893212c3efb036b4ab62393e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e03ff29ef27ec9e99fbdfbb3883d7135/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e03ff29ef27ec9e99fbdfbb3883d7135/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:3:9-49
+	android:icon
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:5:9-43
+	android:name
+		INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:4:9-42
+manifest
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:1:1-44:12
+MERGED from [:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-10:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_tts] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/flutter_tts/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_mlkit_object_detection] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/google_mlkit_object_detection/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_mlkit_commons] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/google_mlkit_commons/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/path_provider_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/de3226f56736a1b89cd47845b71434e8/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f6ce98568501779a01236155547b4d28/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e2c28fe953f476b31a55ce0afe280853/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e5f96c2f8268434f366ec0ce0b27087/transformed/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f4661c889d6a9b40bd7238d108a979d3/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/d5e40ea249b64098b59b0573ca3b7c09/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9c13a24152c84d9c936b0a22f0861721/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/955260167857837bb7c885e93c67ddbb/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/606ac8ca795c41cdf4791c3cc7298c5c/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/6acc02bd724ecba2db7f1f71382861d8/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e396374715219a2182c3499d66372c4b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/81106555924ebf28c1587e3431f04da0/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ba9640655a713bd524d67adf58810661/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/fa300b2e1f651f9f2257789f70a6da3d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/33e4f9944dae152be7ca7926150fb5a3/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/1aa9194501b183d8711dbf4ea73e4dfa/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/a55cde9447dd5cb16aa188e736c50033/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/a689ed0ba5fe42569c015b85f12349a4/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/901ec4a4c71fd1a47f9dbd6f049d3ce4/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/fe4e561f42e5be6ca03e14d8c245cc5c/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ed822b43afab09c0498f956161b3ddd2/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/912ab7ffabe503ebe653d43bedea26a2/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f28db1955ceb20fb373a6abccf624e65/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/329c69edb2024198774736728029fbb9/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7ce44829446670cac52ee945bcedf855/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/467ebe04fc6e2ba7990da49c5dd78a94/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ff6488512c8af5475a8c9a68709161bd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4d85d8ad87ba13de79af6ce7e0d50bda/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/576c92a4986300e9030effa71d72a3af/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/bddb84bcd06839e0a9aa43697862a2a9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/2f80928c3835d9700d04c1bbe4d60641/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7033f2dd3db90707218a932b73ef91c2/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/85d1870cc31cfeb6f08182b6f6de0677/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9a759cee8ddaeddb4f62b2365e0f1657/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67448b0f6ede9b7851472eaedaf439c3/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4759787c1f8118bafca5bf3480dfb157/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/aa79da60893212c3efb036b4ab62393e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9091fe61ccb37630587bfd1cdf45c187/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/79e465a9fbf5886eb99e8543605d73f3/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ea86d405d9bedc818515848c98add3cd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9fc25e67e47032f7268668bef3a395b6/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9517469e28cf5110d7bc66620dde2d7a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f04c4c693e77d0c93848255b33d6a299/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/3a8bd2c187b75072b9a433f8bdeab82f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/448ee5279973147aa95e069581c59dfd/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e03ff29ef27ec9e99fbdfbb3883d7135/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:1:11-69
+queries
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:38:5-43:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:39:9-42:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:40:13-72
+	android:name
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:40:21-70
+data
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:41:13-50
+	android:mimeType
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:41:19-48
+activity#com.example.realtime_objec_detection.MainActivity
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:6:9-26:20
+	android:launchMode
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:9:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:12:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:13:13-55
+	android:exported
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:8:13-36
+	android:configChanges
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:11:13-163
+	android:theme
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:10:13-47
+	android:name
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:7:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:18:13-21:17
+	android:resource
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:20:15-52
+	android:name
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:19:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:23:17-68
+	android:name
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:24:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:29:9-31:33
+	android:value
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:31:13-30
+	android:name
+		ADDED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:30:13-44
+uses-sdk
+INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+MERGED from [:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_tts] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/flutter_tts/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_tts] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/flutter_tts/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:google_mlkit_object_detection] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/google_mlkit_object_detection/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:google_mlkit_object_detection] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/google_mlkit_object_detection/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:google_mlkit_commons] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/google_mlkit_commons/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:google_mlkit_commons] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/google_mlkit_commons/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/path_provider_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/path_provider_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/de3226f56736a1b89cd47845b71434e8/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/de3226f56736a1b89cd47845b71434e8/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f6ce98568501779a01236155547b4d28/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f6ce98568501779a01236155547b4d28/transformed/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e2c28fe953f476b31a55ce0afe280853/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e2c28fe953f476b31a55ce0afe280853/transformed/jetified-vision-interfaces-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e5f96c2f8268434f366ec0ce0b27087/transformed/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e5f96c2f8268434f366ec0ce0b27087/transformed/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f4661c889d6a9b40bd7238d108a979d3/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f4661c889d6a9b40bd7238d108a979d3/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/d5e40ea249b64098b59b0573ca3b7c09/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/d5e40ea249b64098b59b0573ca3b7c09/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9c13a24152c84d9c936b0a22f0861721/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9c13a24152c84d9c936b0a22f0861721/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/955260167857837bb7c885e93c67ddbb/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/955260167857837bb7c885e93c67ddbb/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/606ac8ca795c41cdf4791c3cc7298c5c/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/606ac8ca795c41cdf4791c3cc7298c5c/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/6acc02bd724ecba2db7f1f71382861d8/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/6acc02bd724ecba2db7f1f71382861d8/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e396374715219a2182c3499d66372c4b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e396374715219a2182c3499d66372c4b/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/81106555924ebf28c1587e3431f04da0/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/81106555924ebf28c1587e3431f04da0/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ba9640655a713bd524d67adf58810661/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ba9640655a713bd524d67adf58810661/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/fa300b2e1f651f9f2257789f70a6da3d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/fa300b2e1f651f9f2257789f70a6da3d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/33e4f9944dae152be7ca7926150fb5a3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/33e4f9944dae152be7ca7926150fb5a3/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/1aa9194501b183d8711dbf4ea73e4dfa/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/1aa9194501b183d8711dbf4ea73e4dfa/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/a55cde9447dd5cb16aa188e736c50033/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/a55cde9447dd5cb16aa188e736c50033/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/a689ed0ba5fe42569c015b85f12349a4/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/a689ed0ba5fe42569c015b85f12349a4/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/901ec4a4c71fd1a47f9dbd6f049d3ce4/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/901ec4a4c71fd1a47f9dbd6f049d3ce4/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/fe4e561f42e5be6ca03e14d8c245cc5c/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/fe4e561f42e5be6ca03e14d8c245cc5c/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ed822b43afab09c0498f956161b3ddd2/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ed822b43afab09c0498f956161b3ddd2/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/912ab7ffabe503ebe653d43bedea26a2/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/912ab7ffabe503ebe653d43bedea26a2/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f28db1955ceb20fb373a6abccf624e65/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f28db1955ceb20fb373a6abccf624e65/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/329c69edb2024198774736728029fbb9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/329c69edb2024198774736728029fbb9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7ce44829446670cac52ee945bcedf855/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7ce44829446670cac52ee945bcedf855/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/467ebe04fc6e2ba7990da49c5dd78a94/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/467ebe04fc6e2ba7990da49c5dd78a94/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ff6488512c8af5475a8c9a68709161bd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ff6488512c8af5475a8c9a68709161bd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4d85d8ad87ba13de79af6ce7e0d50bda/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4d85d8ad87ba13de79af6ce7e0d50bda/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/576c92a4986300e9030effa71d72a3af/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/576c92a4986300e9030effa71d72a3af/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/bddb84bcd06839e0a9aa43697862a2a9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/bddb84bcd06839e0a9aa43697862a2a9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/2f80928c3835d9700d04c1bbe4d60641/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/2f80928c3835d9700d04c1bbe4d60641/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7033f2dd3db90707218a932b73ef91c2/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7033f2dd3db90707218a932b73ef91c2/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/85d1870cc31cfeb6f08182b6f6de0677/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/85d1870cc31cfeb6f08182b6f6de0677/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9a759cee8ddaeddb4f62b2365e0f1657/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9a759cee8ddaeddb4f62b2365e0f1657/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67448b0f6ede9b7851472eaedaf439c3/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67448b0f6ede9b7851472eaedaf439c3/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4759787c1f8118bafca5bf3480dfb157/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4759787c1f8118bafca5bf3480dfb157/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/aa79da60893212c3efb036b4ab62393e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/aa79da60893212c3efb036b4ab62393e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9091fe61ccb37630587bfd1cdf45c187/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9091fe61ccb37630587bfd1cdf45c187/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/79e465a9fbf5886eb99e8543605d73f3/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/79e465a9fbf5886eb99e8543605d73f3/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ea86d405d9bedc818515848c98add3cd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ea86d405d9bedc818515848c98add3cd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9fc25e67e47032f7268668bef3a395b6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9fc25e67e47032f7268668bef3a395b6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9517469e28cf5110d7bc66620dde2d7a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/9517469e28cf5110d7bc66620dde2d7a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f04c4c693e77d0c93848255b33d6a299/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/f04c4c693e77d0c93848255b33d6a299/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/3a8bd2c187b75072b9a433f8bdeab82f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/3a8bd2c187b75072b9a433f8bdeab82f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/448ee5279973147aa95e069581c59dfd/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/448ee5279973147aa95e069581c59dfd/transformed/jetified-relinker-1.4.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e03ff29ef27ec9e99fbdfbb3883d7135/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e03ff29ef27ec9e99fbdfbb3883d7135/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from [:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from [:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:8:22-64
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:12:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:15:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:12:17-133
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+meta-data#com.google.firebase.components:com.google.mlkit.linkfirebase.internal.LinkFirebaseComponentRegistrar
+ADDED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:13:17-132
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:21:17-120
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/bddb84bcd06839e0a9aa43697862a2a9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/bddb84bcd06839e0a9aa43697862a2a9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.realtime_objec_detection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.realtime_objec_detection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132

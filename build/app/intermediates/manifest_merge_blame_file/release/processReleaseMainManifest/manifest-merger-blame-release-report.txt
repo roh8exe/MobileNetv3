@@ -1,0 +1,355 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.realtime_objec_detection"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         Required to query activities that can process text, see:
+12         https://developer.android.com/training/package-visibility?hl=en and
+13         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+14
+15         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+16    -->
+17    <queries>
+17-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:38:5-43:15
+18        <intent>
+18-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:39:9-42:18
+19            <action android:name="android.intent.action.PROCESS_TEXT" />
+19-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:40:13-72
+19-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:40:21-70
+20
+21            <data android:mimeType="text/plain" />
+21-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:41:13-50
+21-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:41:19-48
+22        </intent>
+23    </queries>
+24
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->[:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-65
+25-->[:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:22-62
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- For remote config -->
+26-->[:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-71
+26-->[:camera_android] /Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/camera_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:22-68
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:7:5-79
+27-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:7:22-76
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:8:5-67
+28-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:8:22-64
+29    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:24:5-68
+29-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+31
+32    <permission
+32-->[androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.realtime_objec_detection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.realtime_objec_detection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+37
+38    <application
+39        android:name="android.app.Application"
+39-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:4:9-42
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.13.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/ad2b3df54d3079cea81e79983573f45c/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+41        android:extractNativeLibs="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:5:9-43
+43        android:label="realtime_objec_detection" >
+43-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:3:9-49
+44        <activity
+44-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:6:9-26:20
+45            android:name="com.example.realtime_objec_detection.MainActivity"
+45-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:7:13-41
+46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:11:13-163
+47            android:exported="true"
+47-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:8:13-36
+48            android:hardwareAccelerated="true"
+48-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:12:13-47
+49            android:launchMode="singleTop"
+49-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:9:13-43
+50            android:theme="@style/LaunchTheme"
+50-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:10:13-47
+51            android:windowSoftInputMode="adjustResize" >
+51-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:13:13-55
+52
+53            <!--
+54                 Specifies an Android theme to apply to this Activity as soon as
+55                 the Android process has started. This theme is visible to the user
+56                 while the Flutter UI initializes. After that, this theme continues
+57                 to determine the Window background behind the Flutter UI.
+58            -->
+59            <meta-data
+59-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:18:13-21:17
+60                android:name="io.flutter.embedding.android.NormalTheme"
+60-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:19:15-70
+61                android:resource="@style/NormalTheme" />
+61-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:20:15-52
+62
+63            <intent-filter>
+63-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:22:13-25:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:23:17-68
+64-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:23:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:24:17-76
+66-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:24:27-74
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+73-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:29:9-31:33
+74            android:name="flutterEmbedding"
+74-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:30:13-44
+75            android:value="2" />
+75-->/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/android/app/src/main/AndroidManifest.xml:31:13-30
+76
+77        <service
+77-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:11:9-17:19
+78            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+78-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:12:13-91
+79            android:directBootAware="true"
+79-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:17:13-43
+80            android:exported="false" >
+80-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:13:13-37
+81            <meta-data
+81-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:14:13-16:85
+82                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+82-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:15:17-136
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.mlkit:object-detection:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/dd8612ef2d76e075c5fda5d337faaf2a/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:16:17-82
+84            <meta-data
+84-->[com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:11:13-13:85
+85                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar"
+85-->[com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:12:17-133
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.mlkit:object-detection-custom:17.0.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/e1af8d8456b186be1ba489bc1efe87c6/transformed/jetified-object-detection-custom-17.0.1/AndroidManifest.xml:13:17-82
+87            <meta-data
+87-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
+88                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+88-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/roh8exe/.gradle/caches/8.10.2/transforms/df6e31fd400ed355c0f83b9df595e363/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+90            <meta-data
+90-->[com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+91                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+91-->[com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.mlkit:vision-common:17.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/27335c9ab7245aec9bd2aacb5082bd43/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+93            <meta-data
+93-->[com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:12:13-14:85
+94                android:name="com.google.firebase.components:com.google.mlkit.linkfirebase.internal.LinkFirebaseComponentRegistrar"
+94-->[com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:13:17-132
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.mlkit:linkfirebase:17.0.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34195f974e17e9d3f43f4d5d45b1cab1/transformed/jetified-linkfirebase-17.0.0/AndroidManifest.xml:14:17-82
+96            <meta-data
+96-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:20:13-22:85
+97                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+97-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:21:17-120
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:22:17-82
+99        </service>
+100
+101        <provider
+101-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:9:9-13:38
+102            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+102-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:10:13-78
+103            android:authorities="com.example.realtime_objec_detection.mlkitinitprovider"
+103-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:11:13-69
+104            android:exported="false"
+104-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:12:13-37
+105            android:initOrder="99" />
+105-->[com.google.mlkit:common:18.10.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/8f7f9ad3fb16d75df7742dfe66bbdc43/transformed/jetified-common-18.10.0/AndroidManifest.xml:13:13-35
+106
+107        <service
+107-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:29:9-35:19
+108            android:name="com.google.firebase.components.ComponentDiscoveryService"
+108-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:30:13-84
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+110            android:exported="false" >
+110-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:31:13-37
+111            <meta-data
+111-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+112                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+112-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+115                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+115-->[com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-installations:16.2.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c33c9fa248696d306d133a870a09a202/transformed/jetified-firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+117        </service>
+118
+119        <receiver
+119-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+120            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+120-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+121            android:exported="true"
+121-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+122            android:permission="com.google.android.c2dm.permission.SEND" >
+122-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+123            <intent-filter>
+123-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+124                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+124-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+124-->[com.google.firebase:firebase-iid:20.1.5] /Users/roh8exe/.gradle/caches/8.10.2/transforms/67d287566d67676e80eecc3339025957/transformed/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+125            </intent-filter>
+126        </receiver>
+127
+128        <activity
+128-->[com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+129            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+129-->[com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+130            android:exported="false"
+130-->[com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[com.google.android.gms:play-services-base:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/0285b3cb3c4bc7f8b22d050bdde01da1/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+132
+133        <provider
+133-->[com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+134            android:name="com.google.firebase.provider.FirebaseInitProvider"
+134-->[com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+135            android:authorities="com.example.realtime_objec_detection.firebaseinitprovider"
+135-->[com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+136            android:exported="false"
+136-->[com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+137            android:initOrder="100" />
+137-->[com.google.firebase:firebase-common:19.3.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/281d8eddd9f4e8561093ecf33765e971/transformed/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.1.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/4940cd06ad498def1595ae26713dc43e/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+142
+143        <uses-library
+143-->[androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+144            android:name="androidx.window.extensions"
+144-->[androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+145            android:required="false" />
+145-->[androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+146        <uses-library
+146-->[androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+147            android:name="androidx.window.sidecar"
+147-->[androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+148            android:required="false" />
+148-->[androidx.window:window:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/34c5db0fa856752d05d87c8edbe89192/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+149
+150        <provider
+150-->[androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+151            android:name="androidx.startup.InitializationProvider"
+151-->[androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+152            android:authorities="com.example.realtime_objec_detection.androidx-startup"
+152-->[androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+153            android:exported="false" >
+153-->[androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+154            <meta-data
+154-->[androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+155                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+155-->[androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+156                android:value="androidx.startup" />
+156-->[androidx.emoji2:emoji2:1.2.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/c72b364fd40617fbc5ee0dd35407d4bd/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+157            <meta-data
+157-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+158                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+158-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+159                android:value="androidx.startup" />
+159-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/roh8exe/.gradle/caches/8.10.2/transforms/5e322a4648632bdeba24be95700b39c9/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+160            <meta-data
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+161                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+162                android:value="androidx.startup" />
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+163        </provider>
+164
+165        <receiver
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+166            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+167            android:directBootAware="false"
+167-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+168            android:enabled="true"
+168-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+169            android:exported="true"
+169-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+170            android:permission="android.permission.DUMP" >
+170-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+171            <intent-filter>
+171-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+172                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+172-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+173            </intent-filter>
+174            <intent-filter>
+174-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+175                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+175-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+175-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+176            </intent-filter>
+177            <intent-filter>
+177-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+178                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+178-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+178-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+179            </intent-filter>
+180            <intent-filter>
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+181                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/roh8exe/.gradle/caches/8.10.2/transforms/97378ccdd2100d7e0cbafd20c33f8550/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+182            </intent-filter>
+183        </receiver>
+184
+185        <service
+185-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+186            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+186-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+187            android:exported="false" >
+187-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+188            <meta-data
+188-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+189                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+189-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+190                android:value="cct" />
+190-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/roh8exe/.gradle/caches/8.10.2/transforms/120f97744a172e93b5b4883e48e4b552/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+191        </service>
+192        <service
+192-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+193            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+193-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+194            android:exported="false"
+194-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" >
+195-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+196        </service>
+197
+198        <receiver
+198-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+199            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+199-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+200            android:exported="false" />
+200-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/roh8exe/.gradle/caches/8.10.2/transforms/7e7ad2e09b8a93a885cc06e067b68d04/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+201    </application>
+202
+203</manifest>

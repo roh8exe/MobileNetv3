@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.google_mlkit_object_detection-release-33:/drawable-v21/abc_list_divider_material.xml",
+        "source": "com.google_mlkit_object_detection-appcompat-1.6.1-10:/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "com.google_mlkit_object_detection-release-33:/drawable-v21/abc_btn_colored_material.xml",
+        "source": "com.google_mlkit_object_detection-appcompat-1.6.1-10:/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "com.google_mlkit_object_detection-release-33:/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "com.google_mlkit_object_detection-appcompat-1.6.1-10:/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "com.google_mlkit_object_detection-release-33:/drawable-v21/notification_action_background.xml",
+        "source": "com.google_mlkit_object_detection-core-1.13.1-21:/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "com.google_mlkit_object_detection-release-33:/drawable-v21/abc_edit_text_material.xml",
+        "source": "com.google_mlkit_object_detection-appcompat-1.6.1-10:/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "com.google_mlkit_object_detection-release-33:/drawable-v21/abc_dialog_material_background.xml",
+        "source": "com.google_mlkit_object_detection-appcompat-1.6.1-10:/drawable-v21/abc_dialog_material_background.xml"
+    }
+]

@@ -1,0 +1,29 @@
+<lint-module
+    format="1"
+    dir="/Users/roh8exe/.pub-cache/hosted/pub.dev/flutter_tts-4.2.0/android"
+    name=":flutter_tts"
+    type="LIBRARY"
+    maven="com.tundralabs.fluttertts:flutter_tts:"
+    agpVersion="8.3.2"
+    buildFolder="/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/flutter_tts"
+    bootClassPath="/Users/roh8exe/Library/Android/sdk/platforms/android-34/android.jar:/Users/roh8exe/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage,GradleDependency"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="GradleDependency"
+        severity="IGNORE" />
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

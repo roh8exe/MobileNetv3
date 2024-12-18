@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.google_mlkit_commons-release-27:/layout/notification_template_part_time.xml",
+        "source": "com.google_mlkit_commons-core-1.13.1-17:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.google_mlkit_commons-release-27:/layout/notification_template_part_chronometer.xml",
+        "source": "com.google_mlkit_commons-core-1.13.1-17:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.google_mlkit_commons-release-27:/layout/custom_dialog.xml",
+        "source": "com.google_mlkit_commons-core-1.13.1-17:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.google_mlkit_commons-release-27:/layout/ime_base_split_test_activity.xml",
+        "source": "com.google_mlkit_commons-core-1.13.1-17:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "com.google_mlkit_commons-release-27:/layout/ime_secondary_split_test_activity.xml",
+        "source": "com.google_mlkit_commons-core-1.13.1-17:/layout/ime_secondary_split_test_activity.xml"
+    }
+]

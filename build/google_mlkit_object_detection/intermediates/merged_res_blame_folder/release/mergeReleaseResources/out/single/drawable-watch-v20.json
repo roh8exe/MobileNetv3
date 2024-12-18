@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.google_mlkit_object_detection-release-33:/drawable-watch-v20/abc_dialog_material_background.xml",
+        "source": "com.google_mlkit_object_detection-appcompat-1.6.1-10:/drawable-watch-v20/abc_dialog_material_background.xml"
+    }
+]

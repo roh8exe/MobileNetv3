@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.google_mlkit_object_detection-release-33:/layout-v26/abc_screen_toolbar.xml",
+        "source": "com.google_mlkit_object_detection-appcompat-1.6.1-10:/layout-v26/abc_screen_toolbar.xml"
+    }
+]

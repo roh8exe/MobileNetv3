@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/roh8exe/.pub-cache/hosted/pub.dev/google_mlkit_commons-0.7.1/android"
+    name=":google_mlkit_commons"
+    type="LIBRARY"
+    maven="com.google_mlkit_commons:google_mlkit_commons:"
+    agpVersion="8.3.2"
+    buildFolder="/Users/roh8exe/FlutterBasics/untitled folder/udemyflutter/FlutterRealTimeObjecDetection2024-2/build/google_mlkit_commons"
+    bootClassPath="/Users/roh8exe/Library/Android/sdk/platforms/android-34/android.jar:/Users/roh8exe/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
